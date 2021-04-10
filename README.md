@@ -1,4 +1,4 @@
-# javascript-modal
+# Javascript Modal
 Javascript modal - tiny and simple.
 
 ## Status
