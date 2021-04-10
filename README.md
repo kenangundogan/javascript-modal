@@ -2,7 +2,7 @@
 Javascript modal - tiny and simple.
 <p>
 <a href="https://github.com/kenangundogan/javascript-modal/blob/master/dist/style/style.css"><img src="http://img.badgesize.io/kenangundogan/javascript-modal/master/dist/style/style.css?compression=gzip&label=CSS+gzip+size" alt="CSS gzip size"></a>
-<a href="https://github.com/kenangundogan/javascript-modal/blob/master/dist/script/script.js"><img src="http://img.badgesize.io/kenangundogan/javascript-modal/master/dist/script/script.js?compression=gzip&label=CSS+gzip+size" alt="JS gzip size"></a>
+<a href="https://github.com/kenangundogan/javascript-modal/blob/master/dist/script/script.js"><img src="http://img.badgesize.io/kenangundogan/javascript-modal/master/dist/script/script.js?compression=gzip&label=JS+gzip+size" alt="JS gzip size"></a>
 </p>
 
 ![Javascript Modal](https://raw.githubusercontent.com/kenangundogan/javascript-modal/main/asset/javascript-modal-cover.png)
