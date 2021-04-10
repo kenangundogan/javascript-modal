@@ -1,6 +1,8 @@
 # javascript-modal
 Javascript modal - tiny and simple.
 
+![Javascript Modal](https://raw.githubusercontent.com/kenangundogan/javascript-modal/main/asset/javascript-modal-cover.png)
+
 ## Usage example
 ### Script
 ```javascript
