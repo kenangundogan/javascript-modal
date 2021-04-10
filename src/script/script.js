@@ -62,3 +62,4 @@ const Modal = function () {
     }
 }
 
+window.Modal = Modal;
