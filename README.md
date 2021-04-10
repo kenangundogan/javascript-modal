@@ -6,10 +6,10 @@ Javascript modal - tiny and simple.
 ## Options
 Option | Type | Default | Description | Example
 ------ | ---- | ------- | ----------- | -----------
-id | string |  | id DOM element | [Example](https://kenangundogan.github.io/javascript-modal/javascript-modal)
-data-position | string | center | special class can be added | [Example](https://kenangundogan.github.io/javascript-modal/javascript-modal)
-data-size | string | small | special class can be added | [Example](https://kenangundogan.github.io/javascript-modal/javascript-modal)
-data-transition | int | 300ms | opening and closing animation speed | [Example](https://kenangundogan.github.io/javascript-modal/javascript-modal)
+id | string |  | id DOM element | [Example](https://kenangundogan.github.io/javascript-modal/index)
+data-position | string | center | special class can be added | [Example](https://kenangundogan.github.io/javascript-modal/index)
+data-size | string | small | special class can be added | [Example](https://kenangundogan.github.io/javascript-modal/index)
+data-transition | int | 300ms | opening and closing animation speed | [Example](https://kenangundogan.github.io/javascript-modal/index)
 
 ## Usage example
 ### Script
