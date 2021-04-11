@@ -27,7 +27,7 @@ var modal = new Modal;
 ```html
 <button 
     class="modalBtn"
-    data-target="#modal-default"
+    data-target="#modal-center"
     data-position="center"
     data-size="medium"
     data-transition="300"
@@ -35,7 +35,7 @@ var modal = new Modal;
 Default
 </button>
 
-<div class="modal-container" id="modal-default">
+<div class="modal-container" id="modal-center">
     <div class="modal-wrapper">
         <i class="modal-close"></i>
         ...
