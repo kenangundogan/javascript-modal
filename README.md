@@ -25,17 +25,21 @@ var modal = new Modal;
 
 ### View
 ```html
+<!-- Button trigger modal -->
 <button 
     class="modalBtn"
     data-target="#modal-center"
-    data-position="center"
-    data-size="medium"
-    data-transition="300"
 >
 Default
 </button>
 
-<div class="modal-container" id="modal-center">
+<!-- Modal -->
+<div class="modal-container" 
+    id="modal-center"
+    data-position="center"
+    data-size="medium"
+    data-transition="300"
+    >
     <div class="modal-wrapper">
         <i class="modal-close"></i>
         ...
