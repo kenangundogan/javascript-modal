@@ -25,7 +25,15 @@ var modal = new Modal;
 
 ### View
 ```html
-<button class="modalBtn" data-target="#modal-default">Default</button>
+<button 
+    class="modalBtn"
+    data-target="#modal-default"
+    data-position="center"
+    data-size="medium"
+    data-transition="300"
+>
+Default
+</button>
 
 <div class="modal-container" id="modal-default">
     <div class="modal-wrapper">
