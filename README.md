@@ -34,7 +34,8 @@ Default
 </button>
 
 <!-- Modal -->
-<div class="modal-container" 
+<div 
+    class="modal-container" 
     id="modal-center"
     data-position="center"
     data-size="medium"
