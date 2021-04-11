@@ -45,20 +45,29 @@ const Modal = function () {
                 selector.modalContainer.classList.add("visible");
                 selector.modalContainer.classList.add("transform");
             }, 0);
-            modalCloseFunc(selector, options);
+            modalCloseEventFunc(selector, options);
         });
     }
 
-    function modalCloseFunc(selector, options) {
+    function modalCloseEventFunc(selector, options) {
         if (options.modalClose) {
             options.modalClose.addEventListener("click", () => {
-                selector.modalContainer.classList.remove("visible", "transform");
-                setTimeout(() => {
-                    selector.modalContainer.classList.remove(options.dataPostion, options.dataSize, "show");
-                    options.modalWrapper.style = "";
-                }, options.dataTransition);
+                modalCloseFunc(selector, options);
+            });
+            document.addEventListener('keydown', (event) => {
+                if (event.key === "Escape" || event.key === "Esc") {
+                    modalCloseFunc(selector, options);
+                }
             });
         }
+    }
+
+    function modalCloseFunc(selector, options) {
+        selector.modalContainer.classList.remove("visible", "transform");
+        setTimeout(() => {
+            selector.modalContainer.classList.remove(options.dataPostion, options.dataSize, "show");
+            options.modalWrapper.style = "";
+        }, options.dataTransition);
     }
 }
 
